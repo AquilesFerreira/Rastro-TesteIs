@@ -4,11 +4,11 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.1-6DB33F?logo=springboot&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI%203.1-85EA2D?logo=swagger&logoColor=black)
-![Licença](https://img.shields.io/badge/licença-todos%20os%20direitos%20reservados-lightgrey)
+![Licença](https://img.shields.io/badge/licença-AGPL--3.0-blue)
 
 API REST para gestão de pecuária de corte, desenvolvida com Spring Boot. Controla o ciclo de vida do gado, da **compra** à **venda**, passando pelo cadastro e identificação de cada **animal** pelo número do brinco.
 
-> Trabalho acadêmico da disciplina **Implementação de Software** — Unisinos.
+> Trabalho acadêmico da disciplina **Implementação de Software** - Unisinos.
 
 ---
 
@@ -263,7 +263,31 @@ Implementação de Software · Unisinos · 2026
 
 ---
 
+## 🤝 Como contribuir
+
+Contribuições são bem-vindas! Para colaborar:
+
+1. Faça um **fork** deste repositório.
+2. Crie uma branch para a sua alteração: `git checkout -b minha-melhoria`
+3. Faça commit das mudanças com uma mensagem clara.
+4. Envie para o seu fork e abra um **Pull Request** explicando o que foi feito e por quê.
+
+Encontrou um bug ou tem uma ideia? Abra uma **Issue** para conversarmos. A seção [Melhorias futuras](#-melhorias-futuras) é um bom ponto de partida.
+
+Ao contribuir, você concorda que sua contribuição será licenciada sob a mesma licença do projeto.
+
+---
+
 ## 📄 Licença
 
-© 2026 Aquiles Ferreira. **Todos os direitos reservados.**
-Código disponibilizado apenas para avaliação acadêmica. Consulte o arquivo [LICENSE](LICENSE).
+Este projeto é **open source** e está licenciado sob a **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+Você pode usar, estudar, modificar e distribuir este código, desde que:
+
+- mantenha os créditos ao autor original;
+- distribua as versões modificadas sob a mesma licença;
+- disponibilize o código-fonte de qualquer versão modificada, inclusive quando ela for oferecida como serviço pela internet.
+
+O nome **Rastro** e sua identidade visual não estão incluídos nesta licença.
+
+© 2026 **Aquiles Ferreira**. Consulte o arquivo [LICENSE](LICENSE) para o texto completo.
