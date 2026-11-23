@@ -1,33 +1,23 @@
-HELP.md
+# ---- Rastro (raiz) ----
+# Arquivos compactados soltos (ex.: rastro-api.zip)
+*.zip
+
+# ---- Front (rastro-front) ----
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# ---- API (rastro-api) ----
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+HELP.md
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# ---- IDEs ----
+.idea/
 *.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
 .vscode/
+
+# ---- Sistema ----
+.DS_Store
+Thumbs.db
